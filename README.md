@@ -1,11 +1,14 @@
 # xv6-rust
 
+=======
+This project is a port from [xv6-risc](https://github.com/mit-pdos/xv6-riscv) to Rust.
+The objective of this port to retain as much of the original code and design unless there is not a
+clear way of achieving this.
 
 ## Setup
 ```
 rustup target add riscv64gc-unknown-none-elf
-
-
+cargo install cargo-binutils
 ```
 
 
